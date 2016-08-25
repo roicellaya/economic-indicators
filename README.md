@@ -1,1 +1,1 @@
-# economic-indicators
+# Economic Indicators
