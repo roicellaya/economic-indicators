@@ -1,0 +1,28 @@
+<div class="modal-header header-gray" style="border-bottom-left-radius: 0px !important; border-bottom-right-radius: 0px !important;">
+	<div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="remove" ng-click="vm.closeModal()"
+            uib-tooltip="Haz click para cerrar">
+      <div>X</div>
+    </button>
+  </div>
+  <h4 class="box-title text-center">{{ vm.detail.title }}</h4>
+</div>
+<div class="modal-body">
+  <div class="row pad-t-10">
+    <div class="col-xs-6">
+      <h2 class="text-center text-info">{{ vm.detail.currentVal }}</h2>
+    </div>
+    <div class="col-xs-6">
+      <h2 class="text-center text-info">{{ vm.detail.percentChange }} %</h2>
+    </div>
+  </div>
+
+  <div class="row pad-t-10">
+    <div class="col-xs-6">
+      <h2 class="text-center">Valor actual</h2>
+    </div>
+    <div class="col-xs-6">
+      <h2 class="text-center">Porcentaje de variación</h2>
+    </div>
+  </div>
+</div>

@@ -8,7 +8,8 @@
     'app.dashboard',
     'app.layout',
     'app.indicators',
-    'ngResource'
+    'ngResource',
+    'ui.bootstrap'
   ]);
 
 })();

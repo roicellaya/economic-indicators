@@ -17,7 +17,7 @@
         state: 'indicators',
         config: {
           url: '/indicators',
-          templateUrl: 'app/indicators/indicators.html',
+          templateUrl: 'app/indicators/templates/indicators.html',
           controller: 'IndicatorsController',
           controllerAs: 'vm',
           title: 'Indicators',
