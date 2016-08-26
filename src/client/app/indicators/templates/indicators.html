@@ -3,11 +3,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
+          <h2>{{ vm.title }}</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12" style="width: 100%; padding-top: 5%;">
-          <h2 class="text-center">Dólar</h2>
+          <h3 class="text-center">Dólar</h3>
           <div google-chart chart="vm.dolarChart" class="well well" style="height:600px; width:100%;"
                uib-tooltip="Haz click para ver más información de la variación del dólar"
                ng-click="vm.openModal(vm.dolarChart.detail)">
@@ -16,7 +17,7 @@
         </div>
 
         <div class="col-md-12" style="width: 100%; padding-top: 5%;">
-          <h2 class="text-center">Euro</h2>
+          <h3 class="text-center">Euro</h3>
           <div google-chart chart="vm.euroChart" class="well" style="height:600px; width:100%;"
                uib-tooltip="Haz click para ver más información de la variación del euro"
                ng-click="vm.openModal(vm.euroChart.detail)">
@@ -25,7 +26,7 @@
         </div>
 
         <div class="col-md-12" style="width: 100%; padding-top: 5%;">
-          <h2 class="text-center">Unidad de Fomento</h2>
+          <h3 class="text-center">Unidad de Fomento</h3>
           <div google-chart chart="vm.ufChart" class="well" style="height:600px; width:100%;"
                uib-tooltip="Haz click para ver más información de la variación del a unidad de fomento"
                ng-click="vm.openModal(vm.ufChart.detail)">
@@ -34,7 +35,7 @@
         </div>
 
         <div class="col-md-12" style="width: 100%; padding-top: 5%;">
-          <h2 class="text-center">Índice de Precios al Consumidor</h2>
+          <h3 class="text-center">Índice de Precios al Consumidor</h3>
           <div google-chart chart="vm.ipcChart" class="well" style="height:600px; width:100%;"
                uib-tooltip="Haz click para ver más información de la variación del índice de precios al consumidor"
                ng-click="vm.openModal(vm.ipcChart.detail)">
@@ -43,7 +44,7 @@
         </div>
 
         <div class="col-md-12" style="width: 100%; padding-top: 5%;">
-          <h2 class="text-center">Unidad Tributaria Mensual</h2>
+          <h3 class="text-center">Unidad Tributaria Mensual</h3>
           <div google-chart chart="vm.utmChart" class="well" style="height:600px; width:100%;"
                uib-tooltip="Haz click para ver más información de la variación de la unidad tributaria mensual"
                ng-click="vm.openModal(vm.utmChart.detail)">

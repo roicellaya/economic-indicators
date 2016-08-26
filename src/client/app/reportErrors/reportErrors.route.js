@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('app.indicators')
+    .module('app.reportErrors')
     .run(appRun);
 
   appRun.$inject = ['routerHelper'];
@@ -14,16 +14,16 @@
   function getStates() {
     return [
       {
-        state: 'indicators',
+        state: 'reportError',
         config: {
-          url: '/indicators',
-          templateUrl: 'app/indicators/templates/indicators.html',
-          controller: 'IndicatorsController',
+          url: '/reportError',
+          templateUrl: 'app/reportErrors/templates/report-error.html',
+          controller: 'ReportErrorController',
           controllerAs: 'vm',
-          title: 'Indicators',
+          title: 'Report Error',
           settings: {
-            nav: 1,
-            content: '<i class="fa fa-lock"></i> Indicadores'
+            nav: 2,
+            content: '<i class="fa fa-lock"></i> Reportar Error'
           }
         }
       }

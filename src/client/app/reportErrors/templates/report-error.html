@@ -1,0 +1,47 @@
+<section id="indicators-view" class="mainbar">
+  <section class="matter">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>{{ vm.title }}</h2>
+          <form name="errorReportForm" role="form" novalidate>
+            <div class="box box-primary" style="padding-top: 5%;">
+              <div class="box-body">
+                <div class="col-xs-12">
+                  <div class="form-group">
+                    <label for="name" class="required center-block">Nombre</label>
+                    <input type="text" class="form-control center-block" id="name" name="name"
+                           ng-model="vm.name" required />
+                  </div>
+                </div>
+
+                <div class="col-xs-12">
+                  <div class="form-group">
+                    <label for="email" class="required center-block">Correo</label>
+                    <input type="text" class="form-control center-block" id="email" name="email"
+                           ng-model="vm.email" required />
+                  </div>
+                </div>
+
+                <div class="col-xs-12">
+                  <div class="form-group">
+                    <label for="body" class="required center-block">Mensaje</label>
+                    <textarea class="form-control" id="body" name="body" rows="6" ng-model="vm.body"
+                              required>
+                    </textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12">
+              <button class="btn btn-primary" ng-click="vm.sendMail(errorReportForm)">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</section>
