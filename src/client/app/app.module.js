@@ -4,12 +4,11 @@
   angular.module('app', [
     'app.core',
     'app.widgets',
-    'app.admin',
-    'app.dashboard',
     'app.layout',
     'app.indicators',
     'ngResource',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'app.reportErrors'
   ]);
 
 })();

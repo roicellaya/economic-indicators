@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('app.dashboard')
+    .module('app.reportErrors')
     .run(appRun);
 
   appRun.$inject = ['routerHelper'];
@@ -14,16 +14,16 @@
   function getStates() {
     return [
       {
-        state: 'dashboard',
+        state: 'reportError',
         config: {
-          url: '/',
-          templateUrl: 'app/dashboard/dashboard.html',
-          controller: 'DashboardController',
+          url: '/reportError',
+          templateUrl: 'app/reportErrors/templates/report-error.html',
+          controller: 'ReportErrorController',
           controllerAs: 'vm',
-          title: 'dashboard',
+          title: 'Report Error',
           settings: {
-            nav: 1,
-            content: '<i class="fa fa-dashboard"></i> Dashboard'
+            nav: 2,
+            content: '<i class="fa fa-lock"></i> Reportar Error'
           }
         }
       }

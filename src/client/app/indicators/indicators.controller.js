@@ -11,7 +11,7 @@
   /* @ngInject */
   function IndicatorsController(indicatorsService, _, $uibModal, $scope, toastr) {
     var vm = this;
-    vm.title = 'Indicators';
+    vm.title = 'Indicadores';
     vm.openModal = openModal;
 
     var valid_keys = ['codigo', 'nombre', 'serie', 'unidad_medida'];

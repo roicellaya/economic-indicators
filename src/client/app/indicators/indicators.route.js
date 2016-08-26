@@ -22,8 +22,8 @@
           controllerAs: 'vm',
           title: 'Indicators',
           settings: {
-            nav: 3,
-            content: '<i class="fa fa-lock"></i> Indicators'
+            nav: 1,
+            content: '<i class="fa fa-lock"></i> Indicadores'
           }
         }
       }
