@@ -14,7 +14,7 @@
 
   var config = {
     appErrorPrefix: '[economicIndicators Error] ',
-    appTitle: 'Economic Indicators'
+    appTitle: 'economicIndicators'
   };
 
   core.value('config', config);
